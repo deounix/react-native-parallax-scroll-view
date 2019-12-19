@@ -3,31 +3,31 @@ const StyleSheet = require('react-native').StyleSheet;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'transparent'
+    backgroundColor: '#FFFFFF'
   },
   parallaxHeaderContainer: {
-    backgroundColor: 'transparent',
+    backgroundColor: '#FFFFFF',
     overflow: 'hidden'
   },
   parallaxHeader: {
-    backgroundColor: 'transparent',
+    backgroundColor: '#FFFFFF',
     overflow: 'hidden'
   },
   backgroundImage: {
     position: 'absolute',
-    backgroundColor: 'transparent',
+    backgroundColor: '#FFFFFF',
     overflow: 'hidden',
     top: 0
   },
   stickyHeader: {
-    backgroundColor: 'transparent',
+    backgroundColor: '#FFFFFF',
     position: 'absolute',
     overflow: 'hidden',
     top: 0,
     left: 0
   },
   scrollView: {
-    backgroundColor: 'transparent'
+    backgroundColor: '#FFFFFF'
   }
 });
 
