@@ -425,8 +425,8 @@ ParallaxScrollView.propTypes = IPropTypes
 
 ParallaxScrollView.defaultProps = {
 	backgroundScrollSpeed: 5,
-	backgroundColor: '#000',
-	contentBackgroundColor: '#fff',
+	backgroundColor: '#FFFFFF',
+	contentBackgroundColor: '#FFFFFF',
 	fadeOutForeground: true,
 	onChangeHeaderVisibility: () => { },
 	renderScrollComponent: props => <Animated.ScrollView {...props} />,
